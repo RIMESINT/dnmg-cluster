@@ -11,7 +11,7 @@ echo "--------------------------------------"
 
 groupadd -g 7890 cfswrite
 
-echo "2) config rsyslog to send log to 10.21.26.210"
+echo "3) config rsyslog to send log to 10.21.26.210"
 echo "---------------------------------------------"
 
 # end
