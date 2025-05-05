@@ -12,7 +12,7 @@ echo "-----------------------------------"
 groupadd -g 7890 cfswrite
 
 echo "3) configure rsyslog (@10.21.26.210:513)"
-echo "------------------------------------------------"
+echo "----------------------------------------"
 
 printf "\n\n\n# ### Log Forwarding Added ###\n*.* @10.21.26.210:513 \n\n\n# \n" >> /etc/rsyslog.conf
 
